@@ -1,20 +1,8 @@
-# Awesome Mechanical Keyboard [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Open Source Keyboards
 
-## Table of Contents
-
-- [Keyboards](#Keyboards)
-- [Ortholinear-Keyboards](#Ortholinear-Keyboards)
-- [Numpad/Macropad](#numpadmacropad)
-- [Case](#case)
-- [Tools](#Tools)
-- [Firmware](#Firmware)
-- [Tutorials](#Tutorials)
-- [Miscellaneous](#Miscellaneous)
-
-
-## Keyboards
+## Staggered Keyboards
 | Name | Available Files | Tags | Image |
-| --- | --- | --- | --- |
+| --- | --- | --- | :---: |
 | [5plit](https://github.com/larrbo/odd-rocket/tree/master/5plit%20-kailh) | pcb, case | 4x5, plate, pro micro, kailh choc | <img src="https://2.bp.blogspot.com/-bmGeoE6LDsY/WuntJ_vPaJI/AAAAAAAABPs/hSzlyzQB9x0DCwZeqpAm8_qTjESYyPDIACLcBGAs/s400/yijoz5ywkzg01.jpg" width="200px"> |
 | [Akihabara](https://www.thingiverse.com/thing:3105838) | pcb, case | 40%, 3d print | <img src="https://cdn.thingiverse.com/renders/2a/ab/3d/2a/72/20404c338dddde183e41bf112c8b3bbb_preview_featured.jpg" width="200px"/> |
 | [Alpha](https://github.com/PyrooL/Alpha) | pcb, case | <30% | <img src="https://i.imgur.com/alNWnhZ.jpg" width="200px"> |
@@ -49,7 +37,7 @@
 
 ## Ortholinear-Keyboards
 | Name | Available Files | Tags | Image |
-| --- | --- | --- | --- |
+| --- | --- | --- | :---: |
 | [Alpsie](https://github.com/larrbo/odd-rocket/tree/master/alpsie) | pcb, case | 4x12, pro micro, alps, plate | <img src="https://3.bp.blogspot.com/-IAVUSnTmtZA/XArbAHFK5wI/AAAAAAAABeE/FKTl072R1CkIZwXr4AVCZ-_qG7uRjHw9wCLcBGAs/s640/IMG_20181128_194036.jpg" width="200px"> |
 | [Chimera Ortho](https://github.com/GlenPickle/Chimera) | pcb | split, wireless | <img src="https://i.imgur.com/WqYzK5J.jpg" width="200px"> |
 | [Contra](https://github.com/ai03-2725/Contra) | pcb | 4x12 | <img src="https://cartel.ltd/wp-content/uploads/bfi_thumb/contra_p02_02-nktu82ndud49t3w6hk7enn5y4vcjr4ouv2513udte4.jpg" width="200px" /> |
@@ -87,36 +75,11 @@
 
 ## Case
 | Name | Tags | Image |
-| --- | --- | --- |
+| --- | --- | :---: |
 | [Iris Ice Project](https://github.com/rs/iris-ice) | 3d print, acrylic, white, led | <img src="https://github.com/rs/iris-ice/blob/master/img/iris-ice.jpg?raw=true" width="200px"> |
 | [Minidox case](https://github.com/dotdash32/cases/tree/master/Minidox) | split, 3x6, vertically staggered, thumb keys | <img src="https://camo.githubusercontent.com/b345769866acbd0ad76c22250941aa4ab23667e5/68747470733a2f2f692e696d6775722e636f6d2f686d6e6b56646e2e6a7067" width="200px"/> |
 | [OLKB (Planck, Preonic & Atomic)](https://github.com/olkb/olkb_parts) | 3d print, plate |  |
 | []() |  |  |
-
-## Tools
-- [ai03 Plate Generator](https://kbplate.ai03.me) - An advanced plate generator which doesn't result in 13.99999mm cutouts. [Github Repo](https://github.com/ai03-2725/another-keyboard-builder)
-- [Kalerator](https://kalerator.clueboard.co) - pcb generator for keyboard-layout-editor generated layouts. [GitHub Site](https://github.com/skullydazed/kalerator), [Eagle Parts Library](https://github.com/skullydazed/clueboard_eagle)
-- [Keyboard Firmware Builder](https://kbfirmware.com) - online QMK Firmware Builder (2+ years behind QMK firmware master)
-- [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
-- [Parametric Mechanical Keycap Library](https://github.com/rsheldiii/KeyV2) - is a keycap and keyset construction library for mechanical keyboards, written in openSCAD.
-- [Plate & Case Builder](http://builder.swillkb.com) - keyboard top plate CAD files generator, for keyboard-layout-editor generated layouts
-- [QMK Configurator](https://config.qmk.fm/) - an open source configurator for QMK Firmware
-- [TMK Firmware Builder](http://kb.sized.io) - online TMK Firmware Builder
-
-## Firmware
-- [Bluetosis](https://github.com/geoah/bluetosis) - Bluetooth firmware for the Mitosis keyboard
-- [Kaleidoscope](https://github.com/keyboardio/Kaleidoscope)
-- [QMK](https://github.com/qmk/qmk_firmware)
-- [TMK](https://github.com/tmk/tmk_keyboard)
-
-## Tutorials
-- [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
-- [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
-- [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
-- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
-- [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
-- [The Keyboard Matrix ](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/) - How a keyboard matrix work, explained in depth.
-- [The Keyboard Matrix 2](https://www.dribin.org/dave/keyboard/one_html/) - Another explanation how a keyboard matrix work and why it needs diodes.
 
 ## Miscellaneous
 - [BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro) - is a breakout board of BL654(nrf52840 module) which is almost compatible with Pro Micro. This board is designed for wireless split DIY keyboards
@@ -127,10 +90,6 @@
 - [Keyswitch Datasheets](https://github.com/keyboardio/keyswitch_documentation)
 - [List of split keyboards](https://docs.google.com/spreadsheets/d/19-rTWbp8SCKdZFByPZu3RT8NSF8vVddDe8WL6R6b1qQ/edit?usp=sharing)
 - QMK Proton C symbol/footprint for [KiCad](https://github.com/qmk/qmk_hardware/tree/master/kicad/proton_c), [Eagle](https://github.com/qmk/qmk_hardware/tree/master/eagle)
-
----
-### Contributing
-Contributions welcome!
 
 ### License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)

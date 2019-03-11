@@ -1,0 +1,28 @@
+{
+  "name": "awesome-mechanical-keyboard",
+  "version": "1.0.0",
+  "description": "## Table of Contents",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev ./ --temp .temp",
+    "build": "vuepress build ./ --temp .temp",
+    "show-help": "vuepress --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BenRoe@github.com/BenRoe/awesome-mechanical-keyboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenRoe/awesome-mechanical-keyboard/issues"
+  },
+  "homepage": "https://github.com/BenRoe/awesome-mechanical-keyboard#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "vuepress": "^1.0.0-alpha.37",
+    "vuetable-2": "^2.0.0-beta.4"
+  },
+  "dependencies": {
+  }
+}
