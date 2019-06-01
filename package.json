@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/BenRoe/awesome-mechanical-keyboard#readme",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
-    "vuepress": "^1.0.0-alpha.37",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
+    "vuepress": "^1.0.0-alpha.48",
     "vuetable-2": "^2.0.0-beta.4"
   },
   "dependencies": {
