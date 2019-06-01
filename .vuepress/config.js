@@ -27,7 +27,7 @@ module.exports = ctx => ({
     // displayAllHeaders: true,
     // sidebar: 'auto',
 
-    sidebar: getGuideSidebar('Guide', 'Advanced')
+    sidebar: getGuideSidebar('Guide')
     
     
   },
@@ -35,10 +35,10 @@ module.exports = ctx => ({
   description: 'Just playing around'
 })
 
-function getGuideSidebar(groupA, groupB) {
+function getGuideSidebar(groupA) {
   return [
     {
-      // title: groupA,
+      title: groupA,
       collapsable: false,
       children: [
         '',
@@ -47,16 +47,6 @@ function getGuideSidebar(groupA, groupB) {
         'tutorials',
         'tools',
         'shops',
-      ]
-    },
-    {
-      // title: groupB,
-      collapsable: false,
-      children: [
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
       ]
     }
   ]
