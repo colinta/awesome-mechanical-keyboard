@@ -1,17 +1,4 @@
-# Awesome Mechanical Keyboard [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-## Table of Contents
-
-- [Keyboards](#keyboards)
-- [Ortholinear-Keyboards](#ortholinear-Keyboards)
-- [Handwired](#handwired)
-- [Numpad/Macropad](#numpadmacropad)
-- [Case](#case)
-- [Tools](#tools)
-- [Firmware](#firmware)
-- [Tutorials](#tutorials)
-- [Miscellaneous](#miscellaneous)
-
+# Awesome Mechanical Keyboard
 
 ## Staggered Keyboards
 | Name | Available Files | Tags | Image |
@@ -146,40 +133,8 @@
 | [Redox-Case](https://github.com/Lenbok/scad-redox-case) | split, thumb keys, opensCad, 3d print | <img src="https://github.com/Lenbok/scad-redox-case/raw/master/images/redox-exploded.png" width="200px"/> |
 | []() |  |  |
 
-## Tools
-- [ai03 Plate Generator](https://kbplate.ai03.me) - An advanced plate generator which doesn't result in 13.99999mm cutouts. [Github Repo](https://github.com/ai03-2725/another-keyboard-builder)
-- [Kalerator](https://kalerator.clueboard.co) - Pcb generator for keyboard-layout-editor generated layouts. [GitHub Site](https://github.com/skullydazed/kalerator), [Eagle Parts Library](https://github.com/skullydazed/clueboard_eagle)
-- [kbpcb](http://kbpcb.mrkeebs.com/) - Create KiCad PCB files from [KLE](http://www.keyboard-layout-editor.com) json files [Github page](https://github.com/fcoury/kbpcb)
-- [Keyboard Firmware Builder](https://kbfirmware.com) - Online QMK Firmware Builder (2+ years behind QMK firmware master)
-- [keyboard-layout-editor](http://www.keyboard-layout-editor.com/) - Is a web application that enables the editing of keyboard-layouts, i.e., the position and appearance of each physical key. [GitHub Site](https://github.com/ijprest/keyboard-layout-editor)
-- [Keyboard Layout 3D Viewer](https://github.com/eswai/KL3V) - 3D render keyboard-layout-editor.com layouts
-- [kle_render](https://github.com/CQCumbers/kle_render) - Get prettier images of Keyboard Layout Editor designs
-- [Parametric Mechanical Keycap Library](https://github.com/rsheldiii/KeyV2) - Is a keycap and keyset construction library for mechanical keyboards, written in openSCAD.
-- [Plate & Case Builder](http://builder.swillkb.com) - Keyboard top plate CAD files generator, for keyboard-layout-editor generated layouts
-- [Q2K](https://github.com/2hwk/Q2K) - A python based utility for parsing QMK Firmware keymaps to various outputs
-- [QMK Configurator](https://config.qmk.fm/) - An open source configurator for QMK Firmware
-- [TMK Firmware Builder](http://kb.sized.io) - Online TMK Firmware Builder
-- [kbd-prettier](https://github.com/blakedietz/kbd-prettier) - Automatically format your keyboard layout
-
-## Firmware
-- [BlueMicro_BLE](https://github.com/jpconstantineau/BlueMicro_BLE) - A Bluetooth Firmware for the NRF52832
-- [Bluetosis](https://github.com/geoah/bluetosis) - Bluetooth firmware for the Mitosis keyboard
-- [Kaleidoscope](https://github.com/keyboardio/Kaleidoscope)
-- [Keyplus](https://github.com/ahtn/keyplus)
-- [QMK](https://github.com/qmk/qmk_firmware)
-- [TMK](https://github.com/tmk/tmk_keyboard)
-
-
-## Tutorials
-- [A modern handwiring guide](https://geekhack.org/index.php?topic=87689.0)
-- [Hand wiring a let's split](https://johannes-jansson.github.io/projects/2018/07/23/hand-wiring-lets-split.html) (pro micro)
-- [How to integrate a trackpoint in a mechanical keyboard (TMK, Teensy)](https://github.com/alonswartz/trackpoint)
-- [Keyboard PCB Guide](https://github.com/ruiqimao/keyboard-pcb-guide/blob/master/README.md)
-- [lets-split-guide](https://github.com/nicinabox/lets-split-guide) - This guide covers building a Let's Split v2.
-- [The Keyboard Matrix ](http://blog.komar.be/how-to-make-a-keyboard-the-matrix/) - How a keyboard matrix work, explained in depth.
-- [The Keyboard Matrix 2](https://www.dribin.org/dave/keyboard/one_html/) - Another explanation how a keyboard matrix work and why it needs diodes.
-
 ## Miscellaneous
+
 - [BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro) - is a breakout board of BL654(nrf52840 module) which is almost compatible with Pro Micro. This board is designed for wireless split DIY keyboards
 - [Cherry Popper](https://www.thingiverse.com/thing:2685653) - 3D printable Mechanical Keyboard Switch Opening Tool
 - [Keyrigami](https://github.com/geckopfote/keyrigami) - Keycaps made from paper

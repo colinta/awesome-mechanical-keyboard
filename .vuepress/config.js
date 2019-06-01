@@ -12,7 +12,7 @@ module.exports = ctx => ({
     // if your docs are not at the root of the repo:
     // docsDir: 'docs',
     // if your docs are in a specific branch (defaults to 'master'):
-    docsBranch: 'master',
+    docsBranch: 'vuepress',
     // defaults to false, set to true to enable
     editLinks: true,
     // custom text for edit link. Defaults to "Edit this page"
@@ -31,7 +31,7 @@ module.exports = ctx => ({
     
     
   },
-  title: 'Awesome Keyboard List',
+  title: 'Keebfol.io',
   description: 'Just playing around'
 })
 
@@ -50,7 +50,7 @@ function getGuideSidebar(groupA, groupB) {
       ]
     },
     {
-      title: groupB,
+      // title: groupB,
       collapsable: false,
       children: [
         'frontmatter',
